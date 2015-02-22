@@ -4,3 +4,8 @@ a > img {
     width: 30px;
     
 }
+
+a > img:hover {
+    cursor: pointer;
+    opacity: .50;
+}
