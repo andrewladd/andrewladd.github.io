@@ -1,2 +1,2 @@
 # andrewladd.github.io
-Personal
+Personal GitHub Pages site.
