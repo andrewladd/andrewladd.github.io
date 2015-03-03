@@ -1,18 +1,43 @@
-body {
+#container {
+    height: auto;
+    width: auto;
+}
+
+p {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
+    font-size: 80%;
+}
+
+hr {
+    margin-bottom: 0.5%; 
+}
+
+#welcome{
+    margin-top: 10%;
+    font-size: 150%;
 }
 
 #portrait {
     border-radius: 50%;
     border: 5px black;
     box-shadow: 2px 2px 2px;
-    width: 15%
+    width: 10em;
+    margin-bottom: 5%;
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;   
 }
 
 a > img {
-    height: 30px;
-    width: 30px;
+    height: 5%;
+    width: 5%;
+    margin-bottom: 1%;
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     
 }
 
