@@ -3,6 +3,13 @@ body {
     text-align: center;
 }
 
+#portrait {
+    border-radius: 50%;
+    border: 5px black;
+    box-shadow: 2px 2px 2px;
+    width: 15%
+}
+
 a > img {
     height: 30px;
     width: 30px;
