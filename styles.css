@@ -6,7 +6,7 @@
 p {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
-    font-size: 80%;
+    font-size: 150%;
 }
 
 hr {
@@ -15,7 +15,7 @@ hr {
 
 #welcome{
     margin-top: 10%;
-    font-size: 150%;
+    font-size: 250%;
 }
 
 #portrait {
@@ -31,8 +31,8 @@ hr {
 }
 
 a > img {
-    height: 5%;
-    width: 5%;
+    height: 3%;
+    width: 3%;
     margin-bottom: 1%;
     
     display: block;
