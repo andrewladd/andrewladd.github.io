@@ -25,9 +25,17 @@ hr {
     width: 10em;
     margin-bottom: 5%;
     
+    background-attachment: scroll;
+    
     display: block;
     margin-left: auto;
     margin-right: auto;   
+}
+
+#bottombar {
+    height: 3%;
+    background-attachment: fixed;
+    display:  block;
 }
 
 a > img {
