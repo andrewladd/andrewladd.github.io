@@ -38,12 +38,7 @@ a:visited {
      color: white;
 }
 
-hr {
-    background-color: limegreen;
-    border-color: limegreen;
-}
-
-/**/
+/*specifics*/
 #one:hover {
     color: red;
 }
@@ -64,6 +59,11 @@ hr {
 }
 #seven:hover {
     color: violet;
+}
+
+hr {
+    background-color: limegreen;
+    border-color: limegreen;
 }
 
 
