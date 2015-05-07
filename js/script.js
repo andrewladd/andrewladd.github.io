@@ -13,9 +13,7 @@ function change() {
 		}
 	}
 	
-	var shownID = showninfo.id;
-	
-	switch (shownID) {
+	switch (showninfo.id) {
 		case "info9":
 			newinfo = document.getElementById('info1');
 			break;
