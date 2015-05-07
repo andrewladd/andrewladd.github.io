@@ -31,6 +31,7 @@ hr ~ a:hover {
     opacity: 1.0;
     color: white;
     text-decoration: none;
+    cursor: pointer;
 }
 
 a:visited {
@@ -42,6 +43,9 @@ a:visited {
 }
 
 /*specifics*/
+span:hover {
+    cursor: pointer;   
+}
 #one:hover {
     color: red;
 }
