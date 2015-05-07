@@ -22,8 +22,9 @@ h1 {
 p, a {
     font-family: 'Merriweather', serif;
     opacity: 0.7;
-    color: lightgray;
+    color: white;
     font-size: 105%;
+    font-weight: bolder;
 }
 
 hr ~ a:hover {
@@ -34,7 +35,12 @@ hr ~ a:hover {
 
 a:visited {
      text-decoration: none;
-     color: lightgray;
+     color: white;
+}
+
+hr {
+    background-color: limegreen;
+    border-color: limegreen;
 }
 
 /**/
