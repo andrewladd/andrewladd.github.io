@@ -1,4 +1,5 @@
 /// <reference path="../typings/jquery/jquery.d.ts"/>
+
 function change() {
 	var allinfo = document.getElementsByTagName("p");
 	var showninfo;
