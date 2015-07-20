@@ -4,7 +4,7 @@ function change() {
 	var allinfo = document.getElementsByTagName("p");
 	var showninfo;
 	var newinfo;
-	
+
 	//get the p that is displayed
 	for (var i = 0; i < allinfo.length; i++) {
 		if (allinfo[i].hidden == false) {
@@ -12,7 +12,7 @@ function change() {
 			break;
 		}
 	}
-	
+
 	switch (showninfo.id) {
 		case "info9":
 			newinfo = document.getElementById('info1');
@@ -42,7 +42,7 @@ function change() {
 			newinfo = document.getElementById('info9');
 			break;
 	}
-	
+
 	//hide showninfo & display newinfo
 	showninfo.hidden = true;
 	newinfo.hidden = false;

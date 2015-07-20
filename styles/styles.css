@@ -32,6 +32,8 @@ hr ~ a:hover {
     color: white;
     text-decoration: none;
     cursor: pointer;
+    transition: white 0.4s ease 0.4s;
+    -webkit-transition: white 0.4s ease 0.4s;
 }
 
 a:visited {
