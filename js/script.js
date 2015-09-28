@@ -1,4 +1,10 @@
-/// <reference path="../typings/jquery/jquery.d.ts"/>
+$(document).ready(function(){
+	window.setInterval(function(){
+		/// call your function here
+		change();
+	}, 2500);
+});
+
 
 function change() {
 	var allinfo = document.getElementsByTagName("p");

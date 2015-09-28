@@ -10,7 +10,7 @@ body {
 #container {
     position: absolute;
     padding-top: 10%;
-    padding-left: 5%;
+    padding-left: 10%;
 }
 
 /*Writing styles*/
@@ -27,15 +27,6 @@ p, a {
     font-weight: bolder;
 }
 
-hr ~ a:hover {
-    opacity: 1.0;
-    color: white;
-    text-decoration: none;
-    cursor: pointer;
-    transition: white 0.4s ease 0.4s;
-    -webkit-transition: white 0.4s ease 0.4s;
-}
-
 a:visited {
     opacity: 0.7;
     color: white;
@@ -44,9 +35,22 @@ a:visited {
     text-decoration: none;
 }
 
+.infoLinks {
+  display: inline-block;
+}
+
+.infoLinks:hover {
+  opacity: 1.0;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  transition: white 0.4s ease 0.4s;
+  -webkit-transition: white 0.4s ease 0.4s;
+}
+
 /*specifics*/
 span:hover {
-    cursor: pointer;   
+    cursor: pointer;
 }
 #one:hover {
     color: red;
@@ -89,3 +93,6 @@ hr:after {
     background: black;
 }
 
+#personalStory {
+  max-width: 25%;
+}

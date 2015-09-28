@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Andrew Ladd</title>
+    <title>AL / welcome!</title> <!--change for each page, ie AL: about me, AL: blog AL: contact, AL: projects, etc -->
     <link href="images/icon.ico" type="image/x-icon" rel="shortcut icon"></link>
     <!--fonts-->
     <link href='http://fonts.googleapis.com/css?family=Raleway:600|Merriweather:300' rel='stylesheet' type='text/css'>
@@ -17,12 +17,13 @@
 
 <!--
     TODO:
-    - when click a letter in name, toggle between color or not
     - captcha for email
     - donate through pp
     - cool background
-    - change the hr (change color overtime)
-    - animations on hover (add in logos)
+    - update & add animations for meFacts
+    - use liquid to create partials
+    - fill in projects
+    - create "about me" blurb
 -->
 
 <body>
@@ -32,25 +33,22 @@
             <span id="one">AN</span><span id="two">D</span><span id="three">R</span><span id="four">EW</span>
             <span id="five">LA</span><span id="six">D</span><span id="seven">D</span>
         </h1>
+
         <p id="info1" >is an engineering student and aspiring developer.</p>
-        <p id="info2" hidden >loves video games, physical activity, and music.</p>
-        <p id="info3" hidden >is interested in world issues and politics.</p>
-        <p id="info4" hidden >has a love-hate relationship with reddit.</p>
-        <p id="info5" hidden >is trained in first aid (cpr hcp) & whmis.</p>
-        <p id="info6" hidden >enjoys leading, listening, and learning.</p>
-        <p id="info7" hidden >has a pennyboard he's trying not to kill himself on.</p>
-        <p id="info8" hidden ><em>loves</em> coffee... wait, did someone say coffee?</p>
-        <p id="info9" hidden >cares about the environment (black background!).</p>
+        <p id="info2" hidden>loves video games, physical activity, and music.</p>
+        <p id="info3" hidden>is interested in world issues and politics.</p>
+        <p id="info4" hidden>has a love-hate relationship with reddit.</p>
+        <p id="info5" hidden>is trained in first aid (cpr hcp) & whmis.</p>
+        <p id="info6" hidden>enjoys leading, listening, and learning.</p>
+        <p id="info7" hidden>has a pennyboard he's trying not to kill himself on.</p>
+        <p id="info8" hidden><em>craves</em>coff -- wait, did someone say coffee?</p>
+        <p id="info9" hidden>cares about the environment (black background!).</p>
 
         <hr  />
 
-        <a id="aboutLink" onclick="change()" >about me</a> <br/>
-        <a id="resume" href="Andrew_Ladd.pdf" target="_blank" >resume</a> <br/>
-        <a id="github" href="https://github.com/andrewladd" target="_blank" >github</a> <br/>
-        <a id="stack" href="http://stackoverflow.com/users/4713819/lisolm?tab=profile" target="_blank" >stackoverflow</a> <br/>
-        <a id="linked" href="https://ca.linkedin.com/pub/andrew-ladd/a2/852/9b3" target="_blank" >linkedin</a> <br/>
-        <a id="email" href="mailto:a_b_l@outlook.com" >electronic mail</a> <br/>
-        <a id="blog" href="/blog/" target="_blank">blog</a>
+        <a id="aboutLink" class="infoLinks" href="about.html">about me</a> <br/>
+        <a id="blog" class="infoLinks" href="/blog/" target="_blank">my thoughts</a> <br/>
+        <a id="projects" class="infoLinks" href="projects.html">projects &amp; such</a>
 
     </div>
 
