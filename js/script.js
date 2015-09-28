@@ -20,7 +20,7 @@ function change() {
 	}
 
 	switch (showninfo.id) {
-		case "info9":
+		case "info8":
 			newinfo = document.getElementById('info1');
 			break;
 		case "info1":
@@ -43,9 +43,6 @@ function change() {
 			break;
 		case "info7":
 			newinfo = document.getElementById('info8');
-			break;
-		case "info8":
-			newinfo = document.getElementById('info9');
 			break;
 	}
 
