@@ -1,0 +1,22 @@
+<div class="sidebar" id="transparent">
+    <div class="container sidebar-sticky">
+        
+        <div class="sidebar-about">
+            <h1>
+                <a href="{{ site.baseurl }}">
+                  {{ site.title }}
+                </a>
+            </h1>
+            <p class="lead">{{ site.description }}</p>
+            <hr/>
+            <p class="lead">{{ site.quote }}</p>
+
+            <p class="sidebar-foot">
+              &copy; {{ site.time | date: '%Y' }}. All rights reserved.
+              <br/>
+              <span class="sidebar-nav-item">v{{ site.version }}</span>
+            </p>
+        </div>
+    </div>
+    <div class="sidebar-bg"></div>
+</div>
