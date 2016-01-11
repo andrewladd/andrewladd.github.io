@@ -1,1 +1,1 @@
-[Link to site](andrewladd.co)
+[Link to site](http://andrewladd.co)
