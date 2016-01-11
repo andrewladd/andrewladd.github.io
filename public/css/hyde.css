@@ -135,6 +135,15 @@ a.sidebar-nav-item:focus {
   }
 }
 
+@media (max-width: 349px) {
+  .post, .page {
+    padding-top: 3rem;
+  }
+
+}
+
+
+
 /*Inner Nav*/
 
 .nav {
@@ -190,10 +199,7 @@ a.sidebar-nav-item:focus {
 
 
 
-/*anything larger than 48em gets these*/
-@media (min-width: 48em) {
-  
-}
+
 
 /* Custom
  *

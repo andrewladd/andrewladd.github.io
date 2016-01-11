@@ -23,7 +23,7 @@ author:
   url:            https://ca.linkedin.com/in/andrew-ladd-9b3852a2
   resume:         public/Andrew_Ladd_2016.pdf
 
-paginate: 1
+paginate: 5
 
 # Custom vars
 version:          0.0.1
