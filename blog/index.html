@@ -7,7 +7,7 @@ title: Blog
   {% for post in paginator.posts %}
     <div class="post">
       <h1 class="post-title">
-        <a href="{{ post.url }}">
+        <a>
           {{ post.title }}
         </a>
       </h1>
@@ -16,6 +16,7 @@ title: Blog
       <hr/>
       {{ post.content }}
     </div>
+    <a href="{{ post.url }}">Standalone Version</a>
   {% endfor %}
 </div>
 

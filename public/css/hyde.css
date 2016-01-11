@@ -17,11 +17,11 @@
  */
 
 html {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', Arial, sans-serif;
 }
 @media (min-width: 48em) {
   html {
-    font-size: 16px;
+    font-size: 18px;
   }
 }
 @media (min-width: 58em) {
@@ -43,11 +43,13 @@ html {
   padding: 2rem 1rem;
   width: 100%; 
   height: 100%; 
+  background: linear-gradient(to top, rgba(255,255,255,0.33),
+  rgba(255,255,255,0.66)), url('../img/30.jpg') left;
 }
 
-.sidebar::after {
+/*.sidebar::after {
   content: "";
-  background: url(../img/15.jpg);
+  
   background-repeat:no-repeat;
   background-position: center center;
   opacity: 0.5;
@@ -58,30 +60,24 @@ html {
   position: absolute;
   z-index: -1;
 
-}   
+}*/   
 
 
-@media (min-width: 48em) {
-  .sidebar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    width: 18rem;
-    text-align: left;
-  }
-}
-
+/**/
 /* Sidebar links */
 .sidebar a {
   color: #000;
 }
 
 /* About section */
+.sidebar-about {
+  margin-top: 2em;
+}
+
 .sidebar-about h1 {
   color: #000;
   margin-top: 0;
-  font-family: 'Playfair Display SC', serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 3.25rem;
 }
 
@@ -100,16 +96,39 @@ a.sidebar-nav-item:focus {
 .sidebar-nav-item.active {
   font-weight: bold;
 }
+
 .sidebar-foot {
-  font-size: 0.9rem;
-  font-weight: normal;
+  color:#000;
+  font-weight: 600
 }
 
+
+
+.name-prefix {
+  font-size: 1rem;
+  margin-top: -0.8rem;
+  text-align: center;
+  position: absolute;
+  font-weight: 600;
+  /*padding-top: 4rem;*/
+  /*THIS NEEDS MOVED DOWN & RIGHT*/
+}
+
+
+/* Content
+ *
+ * Where the articles and inner content live.
+ * 
+ */
 .content {
   padding-top:    1rem;
   padding-bottom: 0rem;
   background-color: #fff;
-  max-width: 100%;
+}
+
+.foot {
+  font-size: 0.9rem;
+  font-weight: normal;
 }
 
 /* Sticky sidebar
@@ -119,25 +138,32 @@ a.sidebar-nav-item:focus {
  * once the width is > 48em
  */
 
-@media (min-width: 48em) {
+
+@media (min-width:48em) {
   .sidebar-sticky {
-    position: absolute;
-    right:  1rem;
-    bottom: 1rem;
-    left:   1rem;
+    
   }
 
   .content {
-    padding-top: 4rem;
-    max-width: 38rem;
+    padding-top: 3rem;
+    max-width: 30rem;
     margin-left: 20rem;
     margin-right: 2rem;
+  }
+
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 18rem;
+    text-align: left;
   }
 }
 
 @media (max-width: 450px) {
   .post, .page {
-    padding-top: 3rem;
+    padding-top: 1rem;
   }
 
 }
@@ -154,7 +180,7 @@ a.sidebar-nav-item:focus {
   width:100%;
   height:50px;
   top:0px;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Open Sans', sans-serif;
 }
 .nav ul {
   margin: 0;
@@ -190,7 +216,7 @@ a.sidebar-nav-item:focus {
     top:0;
   }
   .nav ul {
-    padding-top: 0.5rem;
+    padding-top: 0.4rem;
   }
 }
 
@@ -200,21 +226,6 @@ a.sidebar-nav-item:focus {
   margin: 2rem 0 2rem 0;
 
 }
-
-
-
-
-
-
-/* Custom
- *
- *
- */
-
- .lead-small {
-    font-size: 1rem;
-    font-weight: 300;
- }
 
 
 
