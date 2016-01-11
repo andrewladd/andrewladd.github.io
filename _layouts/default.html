@@ -11,12 +11,15 @@
         <nav class="nav">
             <ul> 
                 <li><a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a></li>
-                <li><a class="sidebar-nav-item{% if page.url contains 'blog' %} active{% endif %}" href="/blog">Blog</a></li>
+                <li><a class="sidebar-nav-item{% if page.url contains 'blog' or page.url contains '201' %} active{% endif %}" href="/blog">Blog</a></li>
                 <li><a class="sidebar-nav-item" href="/{{ site.author.resume }}" target="_blank">Resume</a></li>
-                <li><a class="sidebar-nav-item" href="{{ site.github.repo }}" target="_blank">GitHub &amp; Repo</a></li>
+                <li><a class="sidebar-nav-item" href="{{ site.github.repo }}" target="_blank">GitHub</a></li>
             </ul>
         </nav>
         {{ content }}
+        <p class="sidebar-foot">
+          &copy; {{ site.time | date: '%Y' }}. All rights reserved.
+        </p>
     </div>
 
   </body>

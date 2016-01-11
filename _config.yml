@@ -16,14 +16,14 @@ future:           false
 
 url:              http://www.andrewladd.co
 baseurl:          /
-paginate_path:    "/blog/page:num"
+paginate_path:    "/blog/page:num/"
 
 author:
   name:           'Andrew Ladd'
   url:            https://ca.linkedin.com/in/andrew-ladd-9b3852a2
   resume:         public/Andrew_Ladd_2016.pdf
 
-paginate: 5
+paginate: 1
 
 # Custom vars
 version:          0.0.1
