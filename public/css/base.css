@@ -399,6 +399,7 @@ tbody tr:nth-child(odd) th {
   display: block;
   padding: 1rem;
   border: 1px solid #eee;
+  max-width: 7.6rem;
 }
 .pagination-item:first-child {
   margin-bottom: -1px;

@@ -387,10 +387,11 @@ tbody tr:nth-child(odd) th {
 
 .pagination {
   overflow: hidden; /* clearfix */
+  margin-left: -1rem;
+  margin-right: -1rem;
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
   color: #ccc;
   text-align: center;
-  width: 110%
 }
 
 /* Pagination items can be `span`s or `a`s */
@@ -398,15 +399,10 @@ tbody tr:nth-child(odd) th {
   display: block;
   padding: 1rem;
   border: 1px solid #eee;
-  max-width: 7.8rem;
+  max-width: 7.6rem;
 }
 .pagination-item:first-child {
   margin-bottom: -1px;
-  margin-left:auto 
-}
-.pagination-item:last-child {
-  margin-bottom: -1px;
-  margin-right:auto 
 }
 
 /* Only provide a hover state for linked pagination items */
