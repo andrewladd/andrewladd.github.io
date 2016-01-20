@@ -15,8 +15,8 @@ title: Blog
       <span class="post-date">{{ post.date | date_to_string }}</span>
       <hr/>
       {{ post.content }}
+      <a href="{{ post.url }}">Standalone Version</a>
     </div>
-    <a href="{{ post.url }}">Standalone Version</a>
   {% endfor %}
 </div>
 
