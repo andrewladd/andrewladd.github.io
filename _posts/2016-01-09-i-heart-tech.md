@@ -1,21 +1,21 @@
 ---
 layout: post
-title: My technological life & why I love the internet
+title: My technological life
 ---
 
-**Here is where I should address how my internet life began, and how I'm maturing to a contributing force.** 
 
-This idea, that a collection of varied, semi-unique inputs can be interpreted as a pattern -- and over time -- as something resembling a human, is what deeply interests me. As we spend our time clicking away on Facebook, Twitter, Reddit, a computer somewhere miles away tracks these movements, records them, and ties them to an internet version of ourselves.  
+I've been on a computer for almost as long as I remember. Back then, I used it almost solely for playing video games (so many hours of Commander Keen) and doodling on MS Paint. As the years went by, it still surprises me that I was able to avoid the languages these programs I loved were written in. It took almost 19 years to finally see a line of code -- 2 years ago this month, studying Medical Sciences at Western University, in my first computer science course. Within the first few weeks, I realized it was something I was good at, and over the next few months, it caused me to reconsider my degree all together. 
 
-**Over time**, these recorded decisions add up. A computer can use this info and relate it to other info it gathers (ie. clicking on a link for baseballs and one for t-shirts may result in receiving an ad for baseball t-shirts!). As a result, computers are able to tailor the feeds you see daily to your tastes, without the need to explicitly tell it anything. 
+Now, I attend the University of Waterloo, studying Computer Engineering. I've worked two jobs in the tech industry over the year and a half I've attended. I've written countless lines of code since my first, and hope to never stop. There's more to programming than just logic puzzles, which is how I initially grasped it; when you start to group together small functions, it becomes apparent that these systems can tell you much more than just fizz or buzz.  
 
-In time, this is what I dream to work on: a system which anonymously monitors your life, uses the patterns it finds, and is able to respond based on the info it has. For example, an autonomous house:
+The idea of AI, using a collection of varied, semi-unique inputs, finding a pattern, and applying them as a human might, is what deeply interests me. As we spend our time clicking away on Facebook, Twitter, Reddit, a computer somewhere miles away tracks these movements, records them, and ties them to an internet version of ourselves. Over time, these recorded decisions add up. A computer can use this info and relate it to other info it gathers (ie. clicking on a link for baseballs and one for t-shirts may result in receiving an ad for baseball t-shirts!). As a result, feeds are tailored so they list what interests you most, without the need to explicitly tell it anything. 
 
-> Upon arrival, the lighting is set in the most-used rooms to an appropriate level, and ensures the temperature is comfortable. Depending on those present and the time of day, it can play music related to everyone's tastes and ensure it is contextually appropriate. It is able to respond to voice commands, and can relay important news – automatically or by prompt – depending on how important that news is to the user. Using the location of the user’s cell phone (or some other device), it can turn on & off lighting as wanted, and can monitor noise and brightness levels to reflect that of the devices that are outputting media.
+This is what I dream to work on: a system which anonymously monitors ones inputs, uses the patterns found, and responds based upon them. For example:
 
-Although a short example, the limits of current technology aren’t far off from probing the lives we live. One day, systems will be rigid enough to withstand mass-consumer usage. In other words, you will be able to ask your house for a coffee, and it won’t be all that weird. 
+*  a video game that responds to your skill level by progressively increasing or decreasing the difficulty, ensuring for the most balanced play-through possible.
+* a system which monitors the market, which can be used to buy and sell investments (ie stocks, real estate) using the patterns it has gathered.
+* an application that learns how to distinguish important phrases or words, which can be used for effectively indexing and sorting data.
 
-I may have gone off on a tangent, but if it isn’t already obvious, it is why *I love technology*. Software is nearly limitless; every day, someone, somewhere, has created something that can automate a process that would take a human a considerable amount of time to complete. The compilation of these automations can both improve the lives of others and promote the expansion of knowledge of humanity. It may seem drastic, but the sheer number of examples one could provide would most definitely assert that computers, programming, and artificial intelligence is the future. 
+Although slightly specific ideas, they can be stretched and built upon. One day, most of the systems we use will be able to utilize this pattern-finding to improve their accuracy. In other words, you will be able to ask your house for a coffee, and it won’t be all that weird when it puts in 0.834 teaspoons of sugar and 21mL of cream. 
 
-
-To all a good day, to all a good night.
+I may have gone off on a tangent, but if it isn’t already obvious, I *love* technology. Software is nearly limitless; every day, someone, somewhere, has created something that can automate a process that would take a human a considerable amount of time to complete. The compilation of these automations can both improve the lives of others and promote the expansion of humanity's knowledge. When these tools are combined with also ever-improving hardware, you're in for a hell of a ride. The sheer number of examples we have available would definitely assert that faster computers, vaster networks, and smarter AIs are the future -- one I'm sprinting towards.
