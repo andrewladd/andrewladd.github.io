@@ -1,25 +1,33 @@
+---
+layout: compress
+---
+
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
 
-  {% include head.html %}
+	<head>
+		{% include head.html %}
+	</head>
 
-  <body class="">
+	<body>
 
-    {% include sidebar.html %}
+		{% include header.html %}
 
-    <div class="content container">
-        <nav class="nav">
-            <ul> 
-                <li><a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a></li>
-                <li><a class="sidebar-nav-item{% if page.url contains 'blog' or page.url contains '201' %} active{% endif %}" href="/blog">Blog</a></li>
-                <li><a class="sidebar-nav-item{% if page.url contains 'resume' %} active{% endif %}" href="/resume">Resume</a></li>
-            </ul>
-        </nav>
-        {{ content }}
-        <p class="foot">
-         Andrew Ladd &copy; {{ site.time | date: '%Y' }} <i class="fa fa-globe"></i> v{{ site.version }}
-        </p>
-    </div>
+		<main>
+			{{ content | replace: '&#8617;', '&#8617;&#xfe0e;' }}
+		</main>
 
-  </body>
+		{% include footer.html %}
+
+		{% if page.path contains '_posts' %}
+
+			{% if content contains 'reversefootnote' %}
+				<aside class="note"></aside>
+				<script async src="{{site.baseurl}}/assets/footnotes.js"></script>
+			{% endif %}
+
+		{% endif %}
+
+	</body>
+
 </html>
